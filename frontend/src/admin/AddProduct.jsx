@@ -35,7 +35,7 @@ const AddProduct = () => {
             console.error("Error occur while adding product", err)
         }
     }
-    
+
 return (
   <div className="max-w-4xl mx-auto mt-16 px-4 pb-20">
     {/* Header Section */}
