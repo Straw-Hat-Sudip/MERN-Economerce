@@ -65,39 +65,6 @@ const EditProduct = () => {
     }
   }
 
-  // return (
-  //   <div className="max-w-lg mx-auto mt-10 bg-white p-6 shadow rounded">
-
-  //     <h2 className="text-2xl font-bold mb-6">Edit Product</h2>
-
-  //     <form onSubmit={handleSubmit} className="space-y-3">
-
-  //       {Object.keys(form).map((key) =>
-  //         allowedFields.includes(key) && (
-  //           <input
-  //             key={key}
-  //             name={key}
-  //             value={form[key]}
-  //             onChange={handleChange}
-  //             placeholder={key}
-  //             className="w-full p-2 border border-gray-300 rounded"
-  //           />
-  //         )
-  //       )}
-
-  //       {/* UPDATE BUTTON */}
-  //       <button
-  //         type="submit"
-  //         className="w-full bg-green-500 text-white py-2 rounded hover:bg-green-600"
-  //       >
-  //         Update Product
-  //       </button>
-
-  //     </form>
-
-  //   </div>
-  // )
-
 return (
   <div className="max-w-7xl mx-auto mt-16 px-6 pb-20">
     {/* Page Header */}
